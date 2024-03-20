@@ -1,7 +1,7 @@
 {
     "base": {
         "task_name": "vgg16_cifar10",
-        "cuda": false,                    
+        "cuda": true,                    
         "seed": 0,
         "checkpoint_path": "",
         "epoch": 0,
