@@ -2,8 +2,14 @@ import torch
 from config import cfg
 
 def get_vgg16_for_cifar():
-    from models.cifar.vgg import VGG
-    return VGG('VGG16', cfg['model']['num_class'])
+    from models.cifar.vgg import VGG_cifar
+    return VGG_cifar('VGG16', cfg['model']['num_class'])
+
+
+def get_vgg16_for_imagenette():
+    from models.imagenette.vgg import VGG_imagenette
+    return VGG_imagenette('VGG16', cfg['model']['num_class'])
+
 
 def get_resnet50_for_imagenet():
     from models.imagenet.resnet50 import Resnet50
@@ -15,6 +21,7 @@ def get_resnet56():
 
 def get_model():
     pair = {
+        'imagenette.vgg16': get_vgg16_for_imagenette,
         'cifar.vgg16': get_vgg16_for_cifar,
         'resnet50': get_resnet50_for_imagenet,
         'cifar.resnet56': get_resnet56

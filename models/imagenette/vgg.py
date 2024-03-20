@@ -9,11 +9,11 @@ cfg = {
 }
 
 
-class VGG_cifar(nn.Module):
+class VGG_imagenette(nn.Module):
     def __init__(self, vgg_name, num_class):
-        super(VGG, self).__init__()
+        super(VGG_imagenette, self).__init__()
         self.features = self._make_layers(cfg[vgg_name])
-        self.classifier = nn.Linear(512, num_class)
+        self.classifier = nn.Linear(41472, num_class)
 
     def forward(self, x):
         out = self.features(x)
