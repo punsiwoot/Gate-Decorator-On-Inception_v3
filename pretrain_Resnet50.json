@@ -1,6 +1,6 @@
 {
     "base": {
-        "task_name": "vgg16_cifar10",
+        "task_name": "Resnet50_finetune",
         "cuda": false,                    
         "seed": 0,
         "checkpoint_path": "",
@@ -12,7 +12,7 @@
     "model": {
         "name": "resnet50",
         "num_class": 10,
-        "pretrained": false
+        "pretrained": true
     },
     "train": {
         "trainer": "normal",
@@ -32,7 +32,7 @@
         "shuffle": false,
         "batch_size": 64,
         "test_batch_size": 64,
-        "num_workers": 8
+        "num_workers": 4
     },
     "loss": {
         "criterion": "softmax"
