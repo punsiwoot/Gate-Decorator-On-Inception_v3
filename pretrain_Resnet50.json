@@ -10,7 +10,7 @@
         "fp16": false
     },
     "model": {
-        "name": "imagenette.vgg16",
+        "name": "resnet50",
         "num_class": 10,
         "pretrained": false
     },
