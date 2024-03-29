@@ -155,9 +155,9 @@ class GatedBatchNorm2d(Meltable):
         r = []
         def _inject(modules):
             keys = modules.keys()
-            print('==============================')
-            print(keys)
-            print('==============================')
+            # print('==============================')
+            # print(keys)
+            # print('==============================')
             for k in keys:
                 if len(modules[k]._modules) > 0:
                     _inject(modules[k]._modules)

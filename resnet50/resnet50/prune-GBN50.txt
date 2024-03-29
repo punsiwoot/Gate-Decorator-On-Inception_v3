@@ -1,0 +1,473 @@
+Change dir from /home/yejinmian/GGAP/exp/0505 to /home/yejinmian/GGAP
+Parsing config file...
+** Assert in demo mode. **
+4142.714 MFLOPS
+25.557 M
+Tock - 0,	 Test Loss: 1.0299,	 Test Acc: 74.41, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.1259,	 Test Acc: 72.11, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.4659,	 Test Acc: 64.62, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.4907,	 Test Acc: 64.30, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.6769,	 Test Acc: 60.61, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6048,	 Test Acc: 62.30, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5361,	 Test Acc: 63.31, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4070,	 Test Acc: 65.69, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.2996,	 Test Acc: 68.23, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.1804,	 Test Acc: 70.82, Final LR: 0.00100
+Iter: 0,	 FLOPS: [98.49%] 4080.017 MFLOPS,	 Param: [99.77%] 25.498 M,	 Left: 26560,	 Pruned Ratio: 0.21 %,	 Train Loss: 1.5211
+Iter: 1,	 FLOPS: [97.86%] 4054.116 MFLOPS,	 Param: [99.55%] 25.442 M,	 Left: 26505,	 Pruned Ratio: 0.41 %,	 Train Loss: 1.4043
+Iter: 2,	 FLOPS: [97.40%] 4034.900 MFLOPS,	 Param: [99.26%] 25.368 M,	 Left: 26450,	 Pruned Ratio: 0.62 %,	 Train Loss: 1.3640
+Iter: 3,	 FLOPS: [96.84%] 4011.723 MFLOPS,	 Param: [98.99%] 25.299 M,	 Left: 26395,	 Pruned Ratio: 0.82 %,	 Train Loss: 1.3536
+Iter: 4,	 FLOPS: [96.38%] 3992.752 MFLOPS,	 Param: [98.70%] 25.224 M,	 Left: 26342,	 Pruned Ratio: 1.03 %,	 Train Loss: 1.3378
+Iter: 5,	 FLOPS: [95.85%] 3970.974 MFLOPS,	 Param: [98.36%] 25.137 M,	 Left: 26287,	 Pruned Ratio: 1.24 %,	 Train Loss: 1.3246
+Iter: 6,	 FLOPS: [95.43%] 3953.275 MFLOPS,	 Param: [98.01%] 25.048 M,	 Left: 26231,	 Pruned Ratio: 1.44 %,	 Train Loss: 1.3120
+Iter: 7,	 FLOPS: [94.94%] 3933.272 MFLOPS,	 Param: [97.61%] 24.946 M,	 Left: 26177,	 Pruned Ratio: 1.65 %,	 Train Loss: 1.3069
+Iter: 8,	 FLOPS: [94.57%] 3917.679 MFLOPS,	 Param: [97.26%] 24.856 M,	 Left: 26122,	 Pruned Ratio: 1.85 %,	 Train Loss: 1.2988
+Iter: 9,	 FLOPS: [93.99%] 3893.934 MFLOPS,	 Param: [96.88%] 24.759 M,	 Left: 26069,	 Pruned Ratio: 2.05 %,	 Train Loss: 1.2972
+Testing: {'test_loss': 1.0976830188717162, 'test_accuracy': 72.808}
+Tocking:
+Tock - 0,	 Test Loss: 1.1686,	 Test Acc: 71.28, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4415,	 Test Acc: 64.84, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5172,	 Test Acc: 63.44, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6604,	 Test Acc: 60.66, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7235,	 Test Acc: 59.37, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6118,	 Test Acc: 61.62, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5830,	 Test Acc: 62.03, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4660,	 Test Acc: 65.12, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3663,	 Test Acc: 66.75, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2366,	 Test Acc: 69.73, Final LR: 0.00100
+Iter: 10,	 FLOPS: [93.58%] 3876.714 MFLOPS,	 Param: [96.66%] 24.703 M,	 Left: 26016,	 Pruned Ratio: 2.25 %,	 Train Loss: 1.5481
+Iter: 11,	 FLOPS: [93.19%] 3860.712 MFLOPS,	 Param: [96.37%] 24.629 M,	 Left: 25963,	 Pruned Ratio: 2.45 %,	 Train Loss: 1.4336
+Iter: 12,	 FLOPS: [92.82%] 3845.097 MFLOPS,	 Param: [96.05%] 24.548 M,	 Left: 25910,	 Pruned Ratio: 2.64 %,	 Train Loss: 1.4130
+Iter: 13,	 FLOPS: [92.45%] 3829.923 MFLOPS,	 Param: [95.79%] 24.482 M,	 Left: 25858,	 Pruned Ratio: 2.84 %,	 Train Loss: 1.3946
+Iter: 14,	 FLOPS: [92.00%] 3811.491 MFLOPS,	 Param: [95.45%] 24.395 M,	 Left: 25806,	 Pruned Ratio: 3.04 %,	 Train Loss: 1.3827
+Iter: 15,	 FLOPS: [91.21%] 3778.687 MFLOPS,	 Param: [95.04%] 24.290 M,	 Left: 25752,	 Pruned Ratio: 3.24 %,	 Train Loss: 1.3696
+Iter: 16,	 FLOPS: [90.90%] 3765.868 MFLOPS,	 Param: [94.70%] 24.202 M,	 Left: 25699,	 Pruned Ratio: 3.44 %,	 Train Loss: 1.3596
+Iter: 17,	 FLOPS: [90.50%] 3749.076 MFLOPS,	 Param: [94.33%] 24.108 M,	 Left: 25647,	 Pruned Ratio: 3.63 %,	 Train Loss: 1.3537
+Iter: 18,	 FLOPS: [90.16%] 3735.058 MFLOPS,	 Param: [93.99%] 24.022 M,	 Left: 25595,	 Pruned Ratio: 3.83 %,	 Train Loss: 1.3546
+Iter: 19,	 FLOPS: [89.57%] 3710.784 MFLOPS,	 Param: [93.64%] 23.932 M,	 Left: 25542,	 Pruned Ratio: 4.04 %,	 Train Loss: 1.3590
+Testing: {'test_loss': 1.1375770313399178, 'test_accuracy': 71.982}
+Tocking:
+Tock - 0,	 Test Loss: 1.1842,	 Test Acc: 70.76, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4559,	 Test Acc: 64.84, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5583,	 Test Acc: 62.88, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6661,	 Test Acc: 60.42, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7589,	 Test Acc: 58.68, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7189,	 Test Acc: 59.52, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6149,	 Test Acc: 61.45, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5131,	 Test Acc: 63.57, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3508,	 Test Acc: 67.34, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2356,	 Test Acc: 69.72, Final LR: 0.00100
+Iter: 20,	 FLOPS: [89.13%] 3692.424 MFLOPS,	 Param: [93.37%] 23.863 M,	 Left: 25487,	 Pruned Ratio: 4.25 %,	 Train Loss: 1.5553
+Iter: 21,	 FLOPS: [88.83%] 3680.081 MFLOPS,	 Param: [93.06%] 23.783 M,	 Left: 25432,	 Pruned Ratio: 4.44 %,	 Train Loss: 1.4513
+Iter: 22,	 FLOPS: [88.32%] 3658.870 MFLOPS,	 Param: [92.66%] 23.680 M,	 Left: 25381,	 Pruned Ratio: 4.64 %,	 Train Loss: 1.4273
+Iter: 23,	 FLOPS: [88.03%] 3646.936 MFLOPS,	 Param: [92.35%] 23.602 M,	 Left: 25327,	 Pruned Ratio: 4.84 %,	 Train Loss: 1.4164
+Iter: 24,	 FLOPS: [87.58%] 3628.242 MFLOPS,	 Param: [92.00%] 23.512 M,	 Left: 25274,	 Pruned Ratio: 5.05 %,	 Train Loss: 1.4039
+Iter: 25,	 FLOPS: [87.22%] 3613.458 MFLOPS,	 Param: [91.63%] 23.418 M,	 Left: 25220,	 Pruned Ratio: 5.25 %,	 Train Loss: 1.3912
+Iter: 26,	 FLOPS: [86.76%] 3594.310 MFLOPS,	 Param: [91.34%] 23.345 M,	 Left: 25166,	 Pruned Ratio: 5.44 %,	 Train Loss: 1.3848
+Iter: 27,	 FLOPS: [86.24%] 3572.840 MFLOPS,	 Param: [90.92%] 23.237 M,	 Left: 25115,	 Pruned Ratio: 5.64 %,	 Train Loss: 1.3767
+Iter: 28,	 FLOPS: [85.78%] 3553.462 MFLOPS,	 Param: [90.52%] 23.135 M,	 Left: 25063,	 Pruned Ratio: 5.83 %,	 Train Loss: 1.3844
+Iter: 29,	 FLOPS: [85.38%] 3537.079 MFLOPS,	 Param: [90.15%] 23.039 M,	 Left: 25012,	 Pruned Ratio: 6.03 %,	 Train Loss: 1.3844
+Testing: {'test_loss': 1.159346873054699, 'test_accuracy': 71.728}
+Tocking:
+Tock - 0,	 Test Loss: 1.2000,	 Test Acc: 70.53, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4014,	 Test Acc: 65.89, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5667,	 Test Acc: 62.45, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6342,	 Test Acc: 61.39, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7354,	 Test Acc: 58.84, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6244,	 Test Acc: 61.20, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5682,	 Test Acc: 62.54, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4861,	 Test Acc: 64.51, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3989,	 Test Acc: 66.23, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2307,	 Test Acc: 69.66, Final LR: 0.00100
+Iter: 30,	 FLOPS: [85.06%] 3523.899 MFLOPS,	 Param: [89.92%] 22.981 M,	 Left: 24959,	 Pruned Ratio: 6.23 %,	 Train Loss: 1.5735
+Iter: 31,	 FLOPS: [84.77%] 3511.979 MFLOPS,	 Param: [89.63%] 22.907 M,	 Left: 24906,	 Pruned Ratio: 6.42 %,	 Train Loss: 1.4654
+Iter: 32,	 FLOPS: [84.24%] 3489.887 MFLOPS,	 Param: [89.34%] 22.834 M,	 Left: 24856,	 Pruned Ratio: 6.60 %,	 Train Loss: 1.4457
+Iter: 33,	 FLOPS: [83.84%] 3473.240 MFLOPS,	 Param: [89.03%] 22.754 M,	 Left: 24806,	 Pruned Ratio: 6.79 %,	 Train Loss: 1.4240
+Iter: 34,	 FLOPS: [83.43%] 3456.453 MFLOPS,	 Param: [88.75%] 22.682 M,	 Left: 24756,	 Pruned Ratio: 6.98 %,	 Train Loss: 1.4152
+Iter: 35,	 FLOPS: [82.96%] 3436.650 MFLOPS,	 Param: [88.36%] 22.583 M,	 Left: 24705,	 Pruned Ratio: 7.18 %,	 Train Loss: 1.4080
+Iter: 36,	 FLOPS: [82.66%] 3424.392 MFLOPS,	 Param: [88.06%] 22.506 M,	 Left: 24652,	 Pruned Ratio: 7.37 %,	 Train Loss: 1.4071
+Iter: 37,	 FLOPS: [82.24%] 3406.919 MFLOPS,	 Param: [87.71%] 22.417 M,	 Left: 24602,	 Pruned Ratio: 7.56 %,	 Train Loss: 1.4026
+Iter: 38,	 FLOPS: [81.73%] 3385.746 MFLOPS,	 Param: [87.30%] 22.311 M,	 Left: 24552,	 Pruned Ratio: 7.76 %,	 Train Loss: 1.3965
+Iter: 39,	 FLOPS: [81.38%] 3371.390 MFLOPS,	 Param: [87.01%] 22.237 M,	 Left: 24499,	 Pruned Ratio: 7.96 %,	 Train Loss: 1.3891
+Testing: {'test_loss': 1.169298870222909, 'test_accuracy': 71.362}
+Tocking:
+Tock - 0,	 Test Loss: 1.2114,	 Test Acc: 70.12, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5155,	 Test Acc: 63.65, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6436,	 Test Acc: 60.81, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6473,	 Test Acc: 60.85, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7749,	 Test Acc: 58.04, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7518,	 Test Acc: 58.81, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6028,	 Test Acc: 61.54, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5644,	 Test Acc: 62.62, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3724,	 Test Acc: 66.44, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2342,	 Test Acc: 69.85, Final LR: 0.00100
+Iter: 40,	 FLOPS: [81.05%] 3357.725 MFLOPS,	 Param: [86.80%] 22.184 M,	 Left: 24447,	 Pruned Ratio: 8.15 %,	 Train Loss: 1.5737
+Iter: 41,	 FLOPS: [80.77%] 3345.884 MFLOPS,	 Param: [86.53%] 22.114 M,	 Left: 24396,	 Pruned Ratio: 8.34 %,	 Train Loss: 1.4785
+Iter: 42,	 FLOPS: [80.36%] 3329.074 MFLOPS,	 Param: [86.24%] 22.041 M,	 Left: 24344,	 Pruned Ratio: 8.53 %,	 Train Loss: 1.4510
+Iter: 43,	 FLOPS: [80.08%] 3317.410 MFLOPS,	 Param: [85.95%] 21.966 M,	 Left: 24294,	 Pruned Ratio: 8.72 %,	 Train Loss: 1.4335
+Iter: 44,	 FLOPS: [79.59%] 3297.250 MFLOPS,	 Param: [85.61%] 21.880 M,	 Left: 24244,	 Pruned Ratio: 8.90 %,	 Train Loss: 1.4241
+Iter: 45,	 FLOPS: [79.28%] 3284.423 MFLOPS,	 Param: [85.30%] 21.799 M,	 Left: 24195,	 Pruned Ratio: 9.09 %,	 Train Loss: 1.4221
+Iter: 46,	 FLOPS: [78.85%] 3266.657 MFLOPS,	 Param: [85.03%] 21.731 M,	 Left: 24145,	 Pruned Ratio: 9.28 %,	 Train Loss: 1.4160
+Iter: 47,	 FLOPS: [78.52%] 3252.837 MFLOPS,	 Param: [84.73%] 21.654 M,	 Left: 24096,	 Pruned Ratio: 9.47 %,	 Train Loss: 1.4162
+Iter: 48,	 FLOPS: [78.18%] 3238.873 MFLOPS,	 Param: [84.42%] 21.574 M,	 Left: 24046,	 Pruned Ratio: 9.65 %,	 Train Loss: 1.4162
+Iter: 49,	 FLOPS: [77.93%] 3228.406 MFLOPS,	 Param: [84.10%] 21.492 M,	 Left: 23997,	 Pruned Ratio: 9.84 %,	 Train Loss: 1.4082
+Testing: {'test_loss': 1.1702734234989907, 'test_accuracy': 71.338}
+Tocking:
+Tock - 0,	 Test Loss: 1.2353,	 Test Acc: 69.74, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4701,	 Test Acc: 64.42, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5430,	 Test Acc: 63.15, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6687,	 Test Acc: 60.29, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7665,	 Test Acc: 58.24, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6911,	 Test Acc: 59.76, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6255,	 Test Acc: 61.55, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4950,	 Test Acc: 63.77, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3757,	 Test Acc: 66.73, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2408,	 Test Acc: 69.48, Final LR: 0.00100
+Iter: 50,	 FLOPS: [77.68%] 3217.951 MFLOPS,	 Param: [83.93%] 21.450 M,	 Left: 23946,	 Pruned Ratio: 10.03 %,	 Train Loss: 1.5809
+Iter: 51,	 FLOPS: [77.33%] 3203.751 MFLOPS,	 Param: [83.65%] 21.378 M,	 Left: 23897,	 Pruned Ratio: 10.21 %,	 Train Loss: 1.4831
+Iter: 52,	 FLOPS: [77.05%] 3191.777 MFLOPS,	 Param: [83.40%] 21.316 M,	 Left: 23849,	 Pruned Ratio: 10.40 %,	 Train Loss: 1.4586
+Iter: 53,	 FLOPS: [76.63%] 3174.550 MFLOPS,	 Param: [83.11%] 21.242 M,	 Left: 23798,	 Pruned Ratio: 10.58 %,	 Train Loss: 1.4387
+Iter: 54,	 FLOPS: [76.19%] 3156.536 MFLOPS,	 Param: [82.83%] 21.170 M,	 Left: 23750,	 Pruned Ratio: 10.77 %,	 Train Loss: 1.4295
+Iter: 55,	 FLOPS: [75.53%] 3128.788 MFLOPS,	 Param: [82.49%] 21.082 M,	 Left: 23699,	 Pruned Ratio: 10.95 %,	 Train Loss: 1.4260
+Iter: 56,	 FLOPS: [74.98%] 3106.133 MFLOPS,	 Param: [82.21%] 21.011 M,	 Left: 23651,	 Pruned Ratio: 11.13 %,	 Train Loss: 1.4267
+Iter: 57,	 FLOPS: [74.71%] 3095.008 MFLOPS,	 Param: [81.95%] 20.943 M,	 Left: 23603,	 Pruned Ratio: 11.31 %,	 Train Loss: 1.4276
+Iter: 58,	 FLOPS: [74.40%] 3081.995 MFLOPS,	 Param: [81.67%] 20.873 M,	 Left: 23555,	 Pruned Ratio: 11.50 %,	 Train Loss: 1.4281
+Iter: 59,	 FLOPS: [74.08%] 3069.040 MFLOPS,	 Param: [81.36%] 20.792 M,	 Left: 23505,	 Pruned Ratio: 11.68 %,	 Train Loss: 1.4216
+Testing: {'test_loss': 1.172589503380717, 'test_accuracy': 71.272}
+Tocking:
+Tock - 0,	 Test Loss: 1.2197,	 Test Acc: 69.72, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4561,	 Test Acc: 64.65, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5965,	 Test Acc: 61.85, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7798,	 Test Acc: 57.90, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8448,	 Test Acc: 56.46, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7163,	 Test Acc: 59.08, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5609,	 Test Acc: 62.31, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5325,	 Test Acc: 63.06, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3761,	 Test Acc: 66.26, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2282,	 Test Acc: 69.58, Final LR: 0.00100
+Iter: 60,	 FLOPS: [73.81%] 3057.759 MFLOPS,	 Param: [81.11%] 20.730 M,	 Left: 23457,	 Pruned Ratio: 11.87 %,	 Train Loss: 1.5889
+Iter: 61,	 FLOPS: [73.52%] 3045.735 MFLOPS,	 Param: [80.81%] 20.652 M,	 Left: 23407,	 Pruned Ratio: 12.06 %,	 Train Loss: 1.4991
+Iter: 62,	 FLOPS: [73.22%] 3033.353 MFLOPS,	 Param: [80.49%] 20.571 M,	 Left: 23358,	 Pruned Ratio: 12.24 %,	 Train Loss: 1.4695
+Iter: 63,	 FLOPS: [72.85%] 3017.917 MFLOPS,	 Param: [80.19%] 20.493 M,	 Left: 23308,	 Pruned Ratio: 12.43 %,	 Train Loss: 1.4610
+Iter: 64,	 FLOPS: [72.54%] 3005.041 MFLOPS,	 Param: [79.93%] 20.428 M,	 Left: 23258,	 Pruned Ratio: 12.62 %,	 Train Loss: 1.4497
+Iter: 65,	 FLOPS: [72.28%] 2994.423 MFLOPS,	 Param: [79.68%] 20.365 M,	 Left: 23209,	 Pruned Ratio: 12.79 %,	 Train Loss: 1.4428
+Iter: 66,	 FLOPS: [71.98%] 2981.877 MFLOPS,	 Param: [79.38%] 20.287 M,	 Left: 23162,	 Pruned Ratio: 12.98 %,	 Train Loss: 1.4393
+Iter: 67,	 FLOPS: [71.70%] 2970.303 MFLOPS,	 Param: [79.13%] 20.224 M,	 Left: 23112,	 Pruned Ratio: 13.16 %,	 Train Loss: 1.4408
+Iter: 68,	 FLOPS: [71.30%] 2953.901 MFLOPS,	 Param: [78.83%] 20.147 M,	 Left: 23065,	 Pruned Ratio: 13.34 %,	 Train Loss: 1.4371
+Iter: 69,	 FLOPS: [71.04%] 2942.888 MFLOPS,	 Param: [78.56%] 20.078 M,	 Left: 23018,	 Pruned Ratio: 13.52 %,	 Train Loss: 1.4319
+Testing: {'test_loss': 1.1892161497047968, 'test_accuracy': 70.74}
+Tocking:
+Tock - 0,	 Test Loss: 1.2267,	 Test Acc: 69.82, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4757,	 Test Acc: 64.06, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6846,	 Test Acc: 60.27, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6824,	 Test Acc: 59.98, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.9338,	 Test Acc: 55.29, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7239,	 Test Acc: 59.01, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5958,	 Test Acc: 62.04, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4652,	 Test Acc: 64.70, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3742,	 Test Acc: 66.45, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2405,	 Test Acc: 69.38, Final LR: 0.00100
+Iter: 70,	 FLOPS: [70.60%] 2924.808 MFLOPS,	 Param: [78.37%] 20.028 M,	 Left: 22970,	 Pruned Ratio: 13.69 %,	 Train Loss: 1.5942
+Iter: 71,	 FLOPS: [70.31%] 2912.621 MFLOPS,	 Param: [78.08%] 19.955 M,	 Left: 22923,	 Pruned Ratio: 13.87 %,	 Train Loss: 1.5018
+Iter: 72,	 FLOPS: [69.85%] 2893.589 MFLOPS,	 Param: [77.85%] 19.897 M,	 Left: 22877,	 Pruned Ratio: 14.04 %,	 Train Loss: 1.4795
+Iter: 73,	 FLOPS: [69.45%] 2877.040 MFLOPS,	 Param: [77.58%] 19.828 M,	 Left: 22831,	 Pruned Ratio: 14.21 %,	 Train Loss: 1.4677
+Iter: 74,	 FLOPS: [69.17%] 2865.501 MFLOPS,	 Param: [77.21%] 19.733 M,	 Left: 22785,	 Pruned Ratio: 14.40 %,	 Train Loss: 1.4646
+Iter: 75,	 FLOPS: [68.91%] 2854.635 MFLOPS,	 Param: [76.97%] 19.672 M,	 Left: 22736,	 Pruned Ratio: 14.57 %,	 Train Loss: 1.4513
+Iter: 76,	 FLOPS: [68.36%] 2832.025 MFLOPS,	 Param: [76.68%] 19.596 M,	 Left: 22690,	 Pruned Ratio: 14.74 %,	 Train Loss: 1.4525
+Iter: 77,	 FLOPS: [67.96%] 2815.550 MFLOPS,	 Param: [76.41%] 19.527 M,	 Left: 22644,	 Pruned Ratio: 14.93 %,	 Train Loss: 1.4384
+Iter: 78,	 FLOPS: [67.68%] 2803.815 MFLOPS,	 Param: [76.16%] 19.463 M,	 Left: 22595,	 Pruned Ratio: 15.10 %,	 Train Loss: 1.4467
+Iter: 79,	 FLOPS: [67.45%] 2794.348 MFLOPS,	 Param: [75.85%] 19.386 M,	 Left: 22549,	 Pruned Ratio: 15.29 %,	 Train Loss: 1.4467
+Testing: {'test_loss': 1.1932327948054489, 'test_accuracy': 70.702}
+Tocking:
+Tock - 0,	 Test Loss: 1.2320,	 Test Acc: 69.62, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5043,	 Test Acc: 63.51, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6136,	 Test Acc: 61.17, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7808,	 Test Acc: 58.13, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.7781,	 Test Acc: 57.82, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6896,	 Test Acc: 59.86, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5554,	 Test Acc: 62.62, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4846,	 Test Acc: 64.01, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3716,	 Test Acc: 66.43, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2493,	 Test Acc: 69.27, Final LR: 0.00100
+Iter: 80,	 FLOPS: [67.12%] 2780.741 MFLOPS,	 Param: [75.65%] 19.333 M,	 Left: 22499,	 Pruned Ratio: 15.47 %,	 Train Loss: 1.6029
+Iter: 81,	 FLOPS: [66.87%] 2770.174 MFLOPS,	 Param: [75.40%] 19.269 M,	 Left: 22452,	 Pruned Ratio: 15.65 %,	 Train Loss: 1.5114
+Iter: 82,	 FLOPS: [66.52%] 2755.718 MFLOPS,	 Param: [75.06%] 19.182 M,	 Left: 22404,	 Pruned Ratio: 15.82 %,	 Train Loss: 1.4856
+Iter: 83,	 FLOPS: [66.19%] 2742.111 MFLOPS,	 Param: [74.75%] 19.104 M,	 Left: 22357,	 Pruned Ratio: 15.99 %,	 Train Loss: 1.4751
+Iter: 84,	 FLOPS: [65.77%] 2724.618 MFLOPS,	 Param: [74.50%] 19.040 M,	 Left: 22312,	 Pruned Ratio: 16.17 %,	 Train Loss: 1.4691
+Iter: 85,	 FLOPS: [65.55%] 2715.599 MFLOPS,	 Param: [74.17%] 18.956 M,	 Left: 22265,	 Pruned Ratio: 16.34 %,	 Train Loss: 1.4625
+Iter: 86,	 FLOPS: [65.19%] 2700.759 MFLOPS,	 Param: [73.92%] 18.892 M,	 Left: 22220,	 Pruned Ratio: 16.51 %,	 Train Loss: 1.4580
+Iter: 87,	 FLOPS: [65.05%] 2694.694 MFLOPS,	 Param: [73.68%] 18.831 M,	 Left: 22175,	 Pruned Ratio: 16.68 %,	 Train Loss: 1.4527
+Iter: 88,	 FLOPS: [64.88%] 2687.956 MFLOPS,	 Param: [73.42%] 18.764 M,	 Left: 22130,	 Pruned Ratio: 16.86 %,	 Train Loss: 1.4592
+Iter: 89,	 FLOPS: [64.69%] 2680.048 MFLOPS,	 Param: [73.19%] 18.705 M,	 Left: 22082,	 Pruned Ratio: 17.03 %,	 Train Loss: 1.4525
+Testing: {'test_loss': 1.2078772372737223, 'test_accuracy': 70.526}
+Tocking:
+Tock - 0,	 Test Loss: 1.2556,	 Test Acc: 69.20, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4810,	 Test Acc: 64.24, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5887,	 Test Acc: 62.11, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7821,	 Test Acc: 58.19, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8523,	 Test Acc: 56.63, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7450,	 Test Acc: 58.53, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6194,	 Test Acc: 60.67, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4799,	 Test Acc: 64.34, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3857,	 Test Acc: 66.05, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2457,	 Test Acc: 69.23, Final LR: 0.00100
+Iter: 90,	 FLOPS: [64.32%] 2664.582 MFLOPS,	 Param: [72.97%] 18.649 M,	 Left: 22037,	 Pruned Ratio: 17.21 %,	 Train Loss: 1.6063
+Iter: 91,	 FLOPS: [64.05%] 2653.255 MFLOPS,	 Param: [72.77%] 18.598 M,	 Left: 21990,	 Pruned Ratio: 17.38 %,	 Train Loss: 1.5154
+Iter: 92,	 FLOPS: [63.80%] 2642.880 MFLOPS,	 Param: [72.49%] 18.527 M,	 Left: 21945,	 Pruned Ratio: 17.56 %,	 Train Loss: 1.4904
+Iter: 93,	 FLOPS: [63.46%] 2629.100 MFLOPS,	 Param: [72.28%] 18.473 M,	 Left: 21896,	 Pruned Ratio: 17.73 %,	 Train Loss: 1.4742
+Iter: 94,	 FLOPS: [63.14%] 2615.719 MFLOPS,	 Param: [71.90%] 18.376 M,	 Left: 21852,	 Pruned Ratio: 17.89 %,	 Train Loss: 1.4854
+Iter: 95,	 FLOPS: [62.90%] 2605.561 MFLOPS,	 Param: [71.57%] 18.291 M,	 Left: 21808,	 Pruned Ratio: 18.07 %,	 Train Loss: 1.4743
+Iter: 96,	 FLOPS: [62.61%] 2593.726 MFLOPS,	 Param: [71.25%] 18.210 M,	 Left: 21761,	 Pruned Ratio: 18.24 %,	 Train Loss: 1.4698
+Iter: 97,	 FLOPS: [62.27%] 2579.778 MFLOPS,	 Param: [70.80%] 18.094 M,	 Left: 21716,	 Pruned Ratio: 18.40 %,	 Train Loss: 1.4683
+Iter: 98,	 FLOPS: [62.01%] 2568.785 MFLOPS,	 Param: [70.47%] 18.010 M,	 Left: 21672,	 Pruned Ratio: 18.57 %,	 Train Loss: 1.4693
+Iter: 99,	 FLOPS: [61.76%] 2558.523 MFLOPS,	 Param: [70.16%] 17.930 M,	 Left: 21628,	 Pruned Ratio: 18.73 %,	 Train Loss: 1.4722
+Testing: {'test_loss': 1.2111497150391948, 'test_accuracy': 70.26}
+Tocking:
+Tock - 0,	 Test Loss: 1.2906,	 Test Acc: 68.28, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.4920,	 Test Acc: 63.78, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6598,	 Test Acc: 60.11, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7918,	 Test Acc: 57.71, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8111,	 Test Acc: 57.53, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7340,	 Test Acc: 58.73, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6452,	 Test Acc: 60.83, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4951,	 Test Acc: 63.89, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3841,	 Test Acc: 66.33, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2517,	 Test Acc: 69.05, Final LR: 0.00100
+Iter: 100,	 FLOPS: [61.60%] 2551.937 MFLOPS,	 Param: [69.93%] 17.873 M,	 Left: 21584,	 Pruned Ratio: 18.90 %,	 Train Loss: 1.6127
+Iter: 101,	 FLOPS: [61.24%] 2537.149 MFLOPS,	 Param: [69.60%] 17.787 M,	 Left: 21540,	 Pruned Ratio: 19.07 %,	 Train Loss: 1.5238
+Iter: 102,	 FLOPS: [61.07%] 2529.756 MFLOPS,	 Param: [69.36%] 17.726 M,	 Left: 21496,	 Pruned Ratio: 19.24 %,	 Train Loss: 1.5061
+Iter: 103,	 FLOPS: [60.91%] 2523.310 MFLOPS,	 Param: [69.16%] 17.676 M,	 Left: 21450,	 Pruned Ratio: 19.41 %,	 Train Loss: 1.4886
+Iter: 104,	 FLOPS: [60.59%] 2510.031 MFLOPS,	 Param: [68.86%] 17.599 M,	 Left: 21404,	 Pruned Ratio: 19.57 %,	 Train Loss: 1.4839
+Iter: 105,	 FLOPS: [60.31%] 2498.470 MFLOPS,	 Param: [68.47%] 17.499 M,	 Left: 21361,	 Pruned Ratio: 19.74 %,	 Train Loss: 1.4756
+Iter: 106,	 FLOPS: [60.11%] 2490.100 MFLOPS,	 Param: [68.26%] 17.444 M,	 Left: 21318,	 Pruned Ratio: 19.90 %,	 Train Loss: 1.4751
+Iter: 107,	 FLOPS: [59.82%] 2478.228 MFLOPS,	 Param: [67.93%] 17.361 M,	 Left: 21275,	 Pruned Ratio: 20.07 %,	 Train Loss: 1.4830
+Iter: 108,	 FLOPS: [59.62%] 2469.982 MFLOPS,	 Param: [67.57%] 17.269 M,	 Left: 21229,	 Pruned Ratio: 20.24 %,	 Train Loss: 1.4787
+Iter: 109,	 FLOPS: [59.32%] 2457.391 MFLOPS,	 Param: [67.15%] 17.162 M,	 Left: 21185,	 Pruned Ratio: 20.41 %,	 Train Loss: 1.4767
+Testing: {'test_loss': 1.2219222534675986, 'test_accuracy': 69.838}
+Tocking:
+Tock - 0,	 Test Loss: 1.2631,	 Test Acc: 68.79, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5210,	 Test Acc: 63.37, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6898,	 Test Acc: 59.81, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.8054,	 Test Acc: 57.41, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8464,	 Test Acc: 56.64, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7659,	 Test Acc: 58.20, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6568,	 Test Acc: 60.20, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4824,	 Test Acc: 64.13, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4087,	 Test Acc: 65.55, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2661,	 Test Acc: 68.98, Final LR: 0.00100
+Iter: 110,	 FLOPS: [58.89%] 2439.631 MFLOPS,	 Param: [66.94%] 17.108 M,	 Left: 21140,	 Pruned Ratio: 20.58 %,	 Train Loss: 1.6206
+Iter: 111,	 FLOPS: [58.69%] 2431.357 MFLOPS,	 Param: [66.75%] 17.059 M,	 Left: 21094,	 Pruned Ratio: 20.74 %,	 Train Loss: 1.5352
+Iter: 112,	 FLOPS: [58.45%] 2421.610 MFLOPS,	 Param: [66.59%] 17.020 M,	 Left: 21051,	 Pruned Ratio: 20.90 %,	 Train Loss: 1.5139
+Iter: 113,	 FLOPS: [58.22%] 2411.764 MFLOPS,	 Param: [66.24%] 16.929 M,	 Left: 21008,	 Pruned Ratio: 21.07 %,	 Train Loss: 1.4995
+Iter: 114,	 FLOPS: [57.90%] 2398.483 MFLOPS,	 Param: [65.90%] 16.841 M,	 Left: 20965,	 Pruned Ratio: 21.23 %,	 Train Loss: 1.4982
+Iter: 115,	 FLOPS: [57.59%] 2385.671 MFLOPS,	 Param: [65.54%] 16.749 M,	 Left: 20920,	 Pruned Ratio: 21.41 %,	 Train Loss: 1.4943
+Iter: 116,	 FLOPS: [57.32%] 2374.566 MFLOPS,	 Param: [65.16%] 16.654 M,	 Left: 20874,	 Pruned Ratio: 21.57 %,	 Train Loss: 1.4944
+Iter: 117,	 FLOPS: [56.97%] 2360.206 MFLOPS,	 Param: [64.82%] 16.566 M,	 Left: 20832,	 Pruned Ratio: 21.72 %,	 Train Loss: 1.4942
+Iter: 118,	 FLOPS: [56.70%] 2348.954 MFLOPS,	 Param: [64.43%] 16.465 M,	 Left: 20790,	 Pruned Ratio: 21.90 %,	 Train Loss: 1.4925
+Iter: 119,	 FLOPS: [56.39%] 2336.075 MFLOPS,	 Param: [64.03%] 16.365 M,	 Left: 20744,	 Pruned Ratio: 22.06 %,	 Train Loss: 1.4904
+Testing: {'test_loss': 1.230025834270886, 'test_accuracy': 69.572}
+Tocking:
+Tock - 0,	 Test Loss: 1.2696,	 Test Acc: 68.61, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5044,	 Test Acc: 63.61, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.5911,	 Test Acc: 61.88, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7146,	 Test Acc: 59.37, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8044,	 Test Acc: 57.36, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6749,	 Test Acc: 60.11, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6087,	 Test Acc: 61.27, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.4872,	 Test Acc: 63.90, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4281,	 Test Acc: 65.33, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2696,	 Test Acc: 68.62, Final LR: 0.00100
+Iter: 120,	 FLOPS: [56.16%] 2326.626 MFLOPS,	 Param: [63.87%] 16.323 M,	 Left: 20702,	 Pruned Ratio: 22.22 %,	 Train Loss: 1.6361
+Iter: 121,	 FLOPS: [55.97%] 2318.648 MFLOPS,	 Param: [63.60%] 16.255 M,	 Left: 20658,	 Pruned Ratio: 22.39 %,	 Train Loss: 1.5472
+Iter: 122,	 FLOPS: [55.75%] 2309.639 MFLOPS,	 Param: [63.37%] 16.195 M,	 Left: 20614,	 Pruned Ratio: 22.56 %,	 Train Loss: 1.5221
+Iter: 123,	 FLOPS: [55.55%] 2301.243 MFLOPS,	 Param: [63.10%] 16.127 M,	 Left: 20568,	 Pruned Ratio: 22.73 %,	 Train Loss: 1.5156
+Iter: 124,	 FLOPS: [55.31%] 2291.454 MFLOPS,	 Param: [62.77%] 16.043 M,	 Left: 20523,	 Pruned Ratio: 22.89 %,	 Train Loss: 1.4980
+Iter: 125,	 FLOPS: [54.98%] 2277.594 MFLOPS,	 Param: [62.47%] 15.966 M,	 Left: 20481,	 Pruned Ratio: 23.06 %,	 Train Loss: 1.5064
+Iter: 126,	 FLOPS: [54.67%] 2264.963 MFLOPS,	 Param: [62.08%] 15.865 M,	 Left: 20436,	 Pruned Ratio: 23.22 %,	 Train Loss: 1.4973
+Iter: 127,	 FLOPS: [54.46%] 2256.327 MFLOPS,	 Param: [61.82%] 15.799 M,	 Left: 20394,	 Pruned Ratio: 23.37 %,	 Train Loss: 1.4946
+Iter: 128,	 FLOPS: [54.26%] 2247.977 MFLOPS,	 Param: [61.52%] 15.722 M,	 Left: 20353,	 Pruned Ratio: 23.52 %,	 Train Loss: 1.5060
+Iter: 129,	 FLOPS: [54.04%] 2238.813 MFLOPS,	 Param: [61.15%] 15.628 M,	 Left: 20312,	 Pruned Ratio: 23.68 %,	 Train Loss: 1.5049
+Testing: {'test_loss': 1.2551910345043455, 'test_accuracy': 69.142}
+Tocking:
+Tock - 0,	 Test Loss: 1.2813,	 Test Acc: 68.39, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5555,	 Test Acc: 62.63, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.7546,	 Test Acc: 58.66, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7467,	 Test Acc: 58.99, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.9599,	 Test Acc: 54.87, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7277,	 Test Acc: 59.05, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6033,	 Test Acc: 61.53, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5432,	 Test Acc: 63.26, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4355,	 Test Acc: 65.41, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2820,	 Test Acc: 68.56, Final LR: 0.00100
+Iter: 130,	 FLOPS: [53.87%] 2231.490 MFLOPS,	 Param: [60.97%] 15.581 M,	 Left: 20271,	 Pruned Ratio: 23.84 %,	 Train Loss: 1.6452
+Iter: 131,	 FLOPS: [53.73%] 2225.683 MFLOPS,	 Param: [60.76%] 15.528 M,	 Left: 20229,	 Pruned Ratio: 24.00 %,	 Train Loss: 1.5573
+Iter: 132,	 FLOPS: [53.49%] 2215.996 MFLOPS,	 Param: [60.46%] 15.453 M,	 Left: 20185,	 Pruned Ratio: 24.16 %,	 Train Loss: 1.5422
+Iter: 133,	 FLOPS: [53.35%] 2210.195 MFLOPS,	 Param: [60.22%] 15.391 M,	 Left: 20142,	 Pruned Ratio: 24.33 %,	 Train Loss: 1.5339
+Iter: 134,	 FLOPS: [53.03%] 2196.937 MFLOPS,	 Param: [59.89%] 15.307 M,	 Left: 20098,	 Pruned Ratio: 24.48 %,	 Train Loss: 1.5199
+Iter: 135,	 FLOPS: [52.88%] 2190.490 MFLOPS,	 Param: [59.52%] 15.212 M,	 Left: 20057,	 Pruned Ratio: 24.64 %,	 Train Loss: 1.5198
+Iter: 136,	 FLOPS: [52.63%] 2180.299 MFLOPS,	 Param: [59.10%] 15.105 M,	 Left: 20016,	 Pruned Ratio: 24.80 %,	 Train Loss: 1.5132
+Iter: 137,	 FLOPS: [52.43%] 2172.100 MFLOPS,	 Param: [58.83%] 15.036 M,	 Left: 19973,	 Pruned Ratio: 24.95 %,	 Train Loss: 1.5167
+Iter: 138,	 FLOPS: [52.22%] 2163.491 MFLOPS,	 Param: [58.56%] 14.966 M,	 Left: 19932,	 Pruned Ratio: 25.12 %,	 Train Loss: 1.5149
+Iter: 139,	 FLOPS: [52.05%] 2156.368 MFLOPS,	 Param: [58.22%] 14.880 M,	 Left: 19889,	 Pruned Ratio: 25.27 %,	 Train Loss: 1.5155
+Testing: {'test_loss': 1.2501123842536186, 'test_accuracy': 69.32}
+Tocking:
+Tock - 0,	 Test Loss: 1.2770,	 Test Acc: 68.28, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5159,	 Test Acc: 63.39, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6346,	 Test Acc: 60.61, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.6973,	 Test Acc: 59.36, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8514,	 Test Acc: 56.53, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.6966,	 Test Acc: 59.63, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.5882,	 Test Acc: 61.86, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.6032,	 Test Acc: 61.71, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.3955,	 Test Acc: 65.80, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2798,	 Test Acc: 68.69, Final LR: 0.00100
+Iter: 140,	 FLOPS: [51.96%] 2152.450 MFLOPS,	 Param: [58.04%] 14.833 M,	 Left: 19849,	 Pruned Ratio: 25.43 %,	 Train Loss: 1.6520
+Iter: 141,	 FLOPS: [51.76%] 2144.216 MFLOPS,	 Param: [57.87%] 14.789 M,	 Left: 19806,	 Pruned Ratio: 25.59 %,	 Train Loss: 1.5723
+Iter: 142,	 FLOPS: [51.57%] 2136.207 MFLOPS,	 Param: [57.70%] 14.746 M,	 Left: 19764,	 Pruned Ratio: 25.74 %,	 Train Loss: 1.5460
+Iter: 143,	 FLOPS: [51.28%] 2124.462 MFLOPS,	 Param: [57.46%] 14.685 M,	 Left: 19724,	 Pruned Ratio: 25.89 %,	 Train Loss: 1.5311
+Iter: 144,	 FLOPS: [51.03%] 2114.093 MFLOPS,	 Param: [57.19%] 14.617 M,	 Left: 19683,	 Pruned Ratio: 26.06 %,	 Train Loss: 1.5345
+Iter: 145,	 FLOPS: [50.81%] 2105.044 MFLOPS,	 Param: [56.88%] 14.536 M,	 Left: 19639,	 Pruned Ratio: 26.22 %,	 Train Loss: 1.5246
+Iter: 146,	 FLOPS: [50.56%] 2094.435 MFLOPS,	 Param: [56.48%] 14.434 M,	 Left: 19597,	 Pruned Ratio: 26.37 %,	 Train Loss: 1.5363
+Iter: 147,	 FLOPS: [50.38%] 2087.033 MFLOPS,	 Param: [56.24%] 14.373 M,	 Left: 19557,	 Pruned Ratio: 26.53 %,	 Train Loss: 1.5256
+Iter: 148,	 FLOPS: [50.17%] 2078.352 MFLOPS,	 Param: [55.92%] 14.292 M,	 Left: 19514,	 Pruned Ratio: 26.69 %,	 Train Loss: 1.5307
+Iter: 149,	 FLOPS: [50.02%] 2072.183 MFLOPS,	 Param: [55.63%] 14.216 M,	 Left: 19472,	 Pruned Ratio: 26.84 %,	 Train Loss: 1.5253
+Testing: {'test_loss': 1.2587939768421406, 'test_accuracy': 69.036}
+Tocking:
+Tock - 0,	 Test Loss: 1.2965,	 Test Acc: 68.14, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5327,	 Test Acc: 62.94, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6957,	 Test Acc: 59.78, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7902,	 Test Acc: 57.76, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.9073,	 Test Acc: 55.51, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7324,	 Test Acc: 58.71, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6489,	 Test Acc: 60.47, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5832,	 Test Acc: 61.94, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4306,	 Test Acc: 65.22, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2922,	 Test Acc: 68.22, Final LR: 0.00100
+Iter: 150,	 FLOPS: [49.79%] 2062.615 MFLOPS,	 Param: [55.38%] 14.154 M,	 Left: 19431,	 Pruned Ratio: 27.00 %,	 Train Loss: 1.6684
+Iter: 151,	 FLOPS: [49.69%] 2058.628 MFLOPS,	 Param: [55.16%] 14.096 M,	 Left: 19390,	 Pruned Ratio: 27.14 %,	 Train Loss: 1.5861
+Iter: 152,	 FLOPS: [49.51%] 2051.069 MFLOPS,	 Param: [54.98%] 14.050 M,	 Left: 19351,	 Pruned Ratio: 27.30 %,	 Train Loss: 1.5616
+Iter: 153,	 FLOPS: [49.33%] 2043.592 MFLOPS,	 Param: [54.75%] 13.993 M,	 Left: 19310,	 Pruned Ratio: 27.45 %,	 Train Loss: 1.5505
+Iter: 154,	 FLOPS: [49.15%] 2036.229 MFLOPS,	 Param: [54.52%] 13.934 M,	 Left: 19268,	 Pruned Ratio: 27.60 %,	 Train Loss: 1.5360
+Iter: 155,	 FLOPS: [48.94%] 2027.472 MFLOPS,	 Param: [54.33%] 13.885 M,	 Left: 19229,	 Pruned Ratio: 27.76 %,	 Train Loss: 1.5411
+Iter: 156,	 FLOPS: [48.77%] 2020.234 MFLOPS,	 Param: [54.11%] 13.830 M,	 Left: 19186,	 Pruned Ratio: 27.93 %,	 Train Loss: 1.5333
+Iter: 157,	 FLOPS: [48.55%] 2011.429 MFLOPS,	 Param: [53.82%] 13.754 M,	 Left: 19141,	 Pruned Ratio: 28.09 %,	 Train Loss: 1.5428
+Iter: 158,	 FLOPS: [48.32%] 2001.690 MFLOPS,	 Param: [53.51%] 13.675 M,	 Left: 19099,	 Pruned Ratio: 28.24 %,	 Train Loss: 1.5304
+Iter: 159,	 FLOPS: [48.15%] 1994.616 MFLOPS,	 Param: [53.33%] 13.630 M,	 Left: 19060,	 Pruned Ratio: 28.38 %,	 Train Loss: 1.5396
+Testing: {'test_loss': 1.2672586133893655, 'test_accuracy': 68.982}
+Tocking:
+Tock - 0,	 Test Loss: 1.3251,	 Test Acc: 67.57, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5354,	 Test Acc: 62.82, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6881,	 Test Acc: 59.85, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.8861,	 Test Acc: 56.14, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8217,	 Test Acc: 57.47, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7581,	 Test Acc: 58.78, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6849,	 Test Acc: 60.04, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5168,	 Test Acc: 63.32, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4219,	 Test Acc: 65.58, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.2886,	 Test Acc: 68.19, Final LR: 0.00100
+Iter: 160,	 FLOPS: [48.02%] 1989.409 MFLOPS,	 Param: [53.13%] 13.579 M,	 Left: 19021,	 Pruned Ratio: 28.54 %,	 Train Loss: 1.6676
+Iter: 161,	 FLOPS: [47.75%] 1978.002 MFLOPS,	 Param: [52.92%] 13.525 M,	 Left: 18981,	 Pruned Ratio: 28.69 %,	 Train Loss: 1.5895
+Iter: 162,	 FLOPS: [47.56%] 1970.196 MFLOPS,	 Param: [52.70%] 13.470 M,	 Left: 18939,	 Pruned Ratio: 28.84 %,	 Train Loss: 1.5722
+Iter: 163,	 FLOPS: [47.29%] 1958.999 MFLOPS,	 Param: [52.52%] 13.423 M,	 Left: 18899,	 Pruned Ratio: 28.99 %,	 Train Loss: 1.5593
+Iter: 164,	 FLOPS: [47.10%] 1951.331 MFLOPS,	 Param: [52.33%] 13.373 M,	 Left: 18861,	 Pruned Ratio: 29.13 %,	 Train Loss: 1.5578
+Iter: 165,	 FLOPS: [46.86%] 1941.225 MFLOPS,	 Param: [51.97%] 13.282 M,	 Left: 18823,	 Pruned Ratio: 29.27 %,	 Train Loss: 1.5525
+Iter: 166,	 FLOPS: [46.58%] 1929.597 MFLOPS,	 Param: [51.65%] 13.201 M,	 Left: 18785,	 Pruned Ratio: 29.43 %,	 Train Loss: 1.5470
+Iter: 167,	 FLOPS: [46.45%] 1924.456 MFLOPS,	 Param: [51.38%] 13.132 M,	 Left: 18744,	 Pruned Ratio: 29.58 %,	 Train Loss: 1.5657
+Iter: 168,	 FLOPS: [46.29%] 1917.517 MFLOPS,	 Param: [51.19%] 13.081 M,	 Left: 18704,	 Pruned Ratio: 29.72 %,	 Train Loss: 1.5568
+Iter: 169,	 FLOPS: [46.07%] 1908.425 MFLOPS,	 Param: [50.88%] 13.003 M,	 Left: 18666,	 Pruned Ratio: 29.86 %,	 Train Loss: 1.5572
+Testing: {'test_loss': 1.2835905761743078, 'test_accuracy': 68.464}
+Tocking:
+Tock - 0,	 Test Loss: 1.3004,	 Test Acc: 68.02, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5196,	 Test Acc: 63.27, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.7018,	 Test Acc: 59.39, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7183,	 Test Acc: 59.18, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.9050,	 Test Acc: 55.60, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7356,	 Test Acc: 58.25, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6142,	 Test Acc: 61.40, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5357,	 Test Acc: 62.64, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4218,	 Test Acc: 65.28, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.3053,	 Test Acc: 67.83, Final LR: 0.00100
+Iter: 170,	 FLOPS: [45.81%] 1897.828 MFLOPS,	 Param: [50.69%] 12.955 M,	 Left: 18628,	 Pruned Ratio: 30.02 %,	 Train Loss: 1.6794
+Iter: 171,	 FLOPS: [45.60%] 1889.183 MFLOPS,	 Param: [50.54%] 12.916 M,	 Left: 18588,	 Pruned Ratio: 30.16 %,	 Train Loss: 1.6047
+Iter: 172,	 FLOPS: [45.45%] 1882.779 MFLOPS,	 Param: [50.41%] 12.883 M,	 Left: 18550,	 Pruned Ratio: 30.31 %,	 Train Loss: 1.5753
+Iter: 173,	 FLOPS: [45.32%] 1877.528 MFLOPS,	 Param: [50.23%] 12.838 M,	 Left: 18510,	 Pruned Ratio: 30.46 %,	 Train Loss: 1.5730
+Iter: 174,	 FLOPS: [45.05%] 1866.482 MFLOPS,	 Param: [50.00%] 12.778 M,	 Left: 18471,	 Pruned Ratio: 30.61 %,	 Train Loss: 1.5660
+Iter: 175,	 FLOPS: [44.94%] 1861.647 MFLOPS,	 Param: [49.79%] 12.724 M,	 Left: 18430,	 Pruned Ratio: 30.77 %,	 Train Loss: 1.5552
+Iter: 176,	 FLOPS: [44.70%] 1851.688 MFLOPS,	 Param: [49.39%] 12.624 M,	 Left: 18387,	 Pruned Ratio: 30.91 %,	 Train Loss: 1.5507
+Iter: 177,	 FLOPS: [44.41%] 1839.822 MFLOPS,	 Param: [49.18%] 12.569 M,	 Left: 18350,	 Pruned Ratio: 31.06 %,	 Train Loss: 1.5578
+Iter: 178,	 FLOPS: [44.30%] 1835.252 MFLOPS,	 Param: [48.97%] 12.515 M,	 Left: 18310,	 Pruned Ratio: 31.20 %,	 Train Loss: 1.5628
+Iter: 179,	 FLOPS: [44.09%] 1826.478 MFLOPS,	 Param: [48.70%] 12.447 M,	 Left: 18273,	 Pruned Ratio: 31.34 %,	 Train Loss: 1.5590
+Testing: {'test_loss': 1.2813869912405402, 'test_accuracy': 68.434}
+Tocking:
+Tock - 0,	 Test Loss: 1.3122,	 Test Acc: 67.66, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5513,	 Test Acc: 62.45, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.6480,	 Test Acc: 60.34, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.8080,	 Test Acc: 57.11, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8954,	 Test Acc: 55.62, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.8051,	 Test Acc: 56.91, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6579,	 Test Acc: 60.24, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5508,	 Test Acc: 62.76, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4406,	 Test Acc: 64.88, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.3061,	 Test Acc: 67.72, Final LR: 0.00100
+Iter: 180,	 FLOPS: [43.93%] 1819.862 MFLOPS,	 Param: [48.56%] 12.411 M,	 Left: 18236,	 Pruned Ratio: 31.49 %,	 Train Loss: 1.6899
+Iter: 181,	 FLOPS: [43.78%] 1813.677 MFLOPS,	 Param: [48.47%] 12.386 M,	 Left: 18196,	 Pruned Ratio: 31.63 %,	 Train Loss: 1.6153
+Iter: 182,	 FLOPS: [43.68%] 1809.544 MFLOPS,	 Param: [48.37%] 12.362 M,	 Left: 18158,	 Pruned Ratio: 31.79 %,	 Train Loss: 1.5926
+Iter: 183,	 FLOPS: [43.52%] 1802.724 MFLOPS,	 Param: [48.09%] 12.292 M,	 Left: 18116,	 Pruned Ratio: 31.93 %,	 Train Loss: 1.5793
+Iter: 184,	 FLOPS: [43.36%] 1796.429 MFLOPS,	 Param: [47.83%] 12.225 M,	 Left: 18079,	 Pruned Ratio: 32.07 %,	 Train Loss: 1.5710
+Iter: 185,	 FLOPS: [43.27%] 1792.549 MFLOPS,	 Param: [47.63%] 12.174 M,	 Left: 18042,	 Pruned Ratio: 32.23 %,	 Train Loss: 1.5786
+Iter: 186,	 FLOPS: [42.98%] 1780.646 MFLOPS,	 Param: [47.28%] 12.084 M,	 Left: 17999,	 Pruned Ratio: 32.37 %,	 Train Loss: 1.5708
+Iter: 187,	 FLOPS: [42.86%] 1775.451 MFLOPS,	 Param: [47.07%] 12.029 M,	 Left: 17962,	 Pruned Ratio: 32.51 %,	 Train Loss: 1.5819
+Iter: 188,	 FLOPS: [42.75%] 1770.902 MFLOPS,	 Param: [46.83%] 11.969 M,	 Left: 17926,	 Pruned Ratio: 32.65 %,	 Train Loss: 1.5754
+Iter: 189,	 FLOPS: [42.54%] 1762.264 MFLOPS,	 Param: [46.43%] 11.867 M,	 Left: 17887,	 Pruned Ratio: 32.79 %,	 Train Loss: 1.5795
+Testing: {'test_loss': 1.2951366046861725, 'test_accuracy': 68.164}
+Tocking:
+Tock - 0,	 Test Loss: 1.3229,	 Test Acc: 67.48, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5528,	 Test Acc: 62.72, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.7022,	 Test Acc: 59.57, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7028,	 Test Acc: 59.17, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8636,	 Test Acc: 56.34, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7285,	 Test Acc: 58.98, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6129,	 Test Acc: 61.06, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5580,	 Test Acc: 62.25, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4285,	 Test Acc: 65.09, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.3075,	 Test Acc: 68.04, Final LR: 0.00100
+Iter: 190,	 FLOPS: [42.33%] 1753.669 MFLOPS,	 Param: [46.32%] 11.838 M,	 Left: 17851,	 Pruned Ratio: 32.93 %,	 Train Loss: 1.7040
+Iter: 191,	 FLOPS: [42.22%] 1749.211 MFLOPS,	 Param: [46.15%] 11.795 M,	 Left: 17815,	 Pruned Ratio: 33.06 %,	 Train Loss: 1.6256
+Iter: 192,	 FLOPS: [42.10%] 1744.212 MFLOPS,	 Param: [45.99%] 11.754 M,	 Left: 17778,	 Pruned Ratio: 33.20 %,	 Train Loss: 1.6127
+Iter: 193,	 FLOPS: [41.90%] 1735.793 MFLOPS,	 Param: [45.75%] 11.692 M,	 Left: 17742,	 Pruned Ratio: 33.34 %,	 Train Loss: 1.5934
+Iter: 194,	 FLOPS: [41.83%] 1732.693 MFLOPS,	 Param: [45.58%] 11.650 M,	 Left: 17706,	 Pruned Ratio: 33.48 %,	 Train Loss: 1.5807
+Iter: 195,	 FLOPS: [41.68%] 1726.533 MFLOPS,	 Param: [45.37%] 11.595 M,	 Left: 17669,	 Pruned Ratio: 33.61 %,	 Train Loss: 1.5814
+Iter: 196,	 FLOPS: [41.55%] 1721.355 MFLOPS,	 Param: [45.14%] 11.536 M,	 Left: 17633,	 Pruned Ratio: 33.75 %,	 Train Loss: 1.5810
+Iter: 197,	 FLOPS: [41.43%] 1716.430 MFLOPS,	 Param: [44.88%] 11.469 M,	 Left: 17597,	 Pruned Ratio: 33.89 %,	 Train Loss: 1.5839
+Iter: 198,	 FLOPS: [41.29%] 1710.537 MFLOPS,	 Param: [44.70%] 11.424 M,	 Left: 17560,	 Pruned Ratio: 34.02 %,	 Train Loss: 1.5872
+Iter: 199,	 FLOPS: [41.18%] 1705.882 MFLOPS,	 Param: [44.54%] 11.384 M,	 Left: 17524,	 Pruned Ratio: 34.16 %,	 Train Loss: 1.5958
+Testing: {'test_loss': 1.30355196370154, 'test_accuracy': 68.156}
+Tocking:
+Tock - 0,	 Test Loss: 1.3211,	 Test Acc: 67.56, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5085,	 Test Acc: 63.44, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.7344,	 Test Acc: 58.63, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.7445,	 Test Acc: 58.57, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.8556,	 Test Acc: 55.89, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7814,	 Test Acc: 57.65, Final LR: 0.00820
+Tock - 6,	 Test Loss: 1.6377,	 Test Acc: 60.70, Final LR: 0.00640
+Tock - 7,	 Test Loss: 1.5327,	 Test Acc: 62.86, Final LR: 0.00460
+Tock - 8,	 Test Loss: 1.4694,	 Test Acc: 64.21, Final LR: 0.00280
+Tock - 9,	 Test Loss: 1.3188,	 Test Acc: 67.59, Final LR: 0.00100
+Iter: 200,	 FLOPS: [41.03%] 1699.827 MFLOPS,	 Param: [44.40%] 11.347 M,	 Left: 17487,	 Pruned Ratio: 34.30 %,	 Train Loss: 1.7045
+Iter: 201,	 FLOPS: [40.86%] 1692.700 MFLOPS,	 Param: [44.26%] 11.312 M,	 Left: 17449,	 Pruned Ratio: 34.44 %,	 Train Loss: 1.6394
+Iter: 202,	 FLOPS: [40.67%] 1684.858 MFLOPS,	 Param: [44.04%] 11.255 M,	 Left: 17414,	 Pruned Ratio: 34.57 %,	 Train Loss: 1.6107
+Iter: 203,	 FLOPS: [40.54%] 1679.526 MFLOPS,	 Param: [43.91%] 11.223 M,	 Left: 17379,	 Pruned Ratio: 34.70 %,	 Train Loss: 1.5917
+Iter: 204,	 FLOPS: [40.40%] 1673.767 MFLOPS,	 Param: [43.61%] 11.146 M,	 Left: 17343,	 Pruned Ratio: 34.83 %,	 Train Loss: 1.5968
+Iter: 205,	 FLOPS: [40.22%] 1666.024 MFLOPS,	 Param: [43.33%] 11.075 M,	 Left: 17308,	 Pruned Ratio: 34.97 %,	 Train Loss: 1.5999
+Iter: 206,	 FLOPS: [40.05%] 1658.996 MFLOPS,	 Param: [43.02%] 10.995 M,	 Left: 17273,	 Pruned Ratio: 35.11 %,	 Train Loss: 1.6071
+Iter: 207,	 FLOPS: [39.84%] 1650.452 MFLOPS,	 Param: [42.78%] 10.933 M,	 Left: 17235,	 Pruned Ratio: 35.24 %,	 Train Loss: 1.5941
+Iter: 208,	 FLOPS: [39.69%] 1644.134 MFLOPS,	 Param: [42.54%] 10.871 M,	 Left: 17199,	 Pruned Ratio: 35.38 %,	 Train Loss: 1.6102
+Iter: 209,	 FLOPS: [39.54%] 1638.230 MFLOPS,	 Param: [42.22%] 10.790 M,	 Left: 17164,	 Pruned Ratio: 35.51 %,	 Train Loss: 1.6097
+Testing: {'test_loss': 1.309516127012214, 'test_accuracy': 67.776}
+Tocking:
+Tock - 0,	 Test Loss: 1.3423,	 Test Acc: 66.96, Final LR: 0.00280
+Tock - 1,	 Test Loss: 1.5672,	 Test Acc: 62.36, Final LR: 0.00460
+Tock - 2,	 Test Loss: 1.7060,	 Test Acc: 59.54, Final LR: 0.00640
+Tock - 3,	 Test Loss: 1.8190,	 Test Acc: 57.32, Final LR: 0.00820
+Tock - 4,	 Test Loss: 1.9286,	 Test Acc: 54.64, Final LR: 0.01000
+Tock - 5,	 Test Loss: 1.7914,	 Test Acc: 57.81, Final LR: 0.00820

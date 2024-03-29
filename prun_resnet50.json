@@ -1,11 +1,11 @@
 {
     "base": {
-        "task_name": "Resnet50_finetune",
-        "cuda": false,                    
+        "task_name": "0505_tock_more",
+        "cuda": true,
         "seed": 0,
+        "model_saving_interval": 90,
         "checkpoint_path": "",
         "epoch": 0,
-        "model_saving_interval": 80,
         "multi_gpus": true,
         "fp16": false
     },
@@ -16,14 +16,10 @@
     },
     "train": {
         "trainer": "normal",
-        "max_epoch": 180,
+        "max_epoch": 90,
         "optim": "sgd",
-        "steplr": [
-            [80, 0.01],
-            [120, 0.001],
-            [160, 0.0001]
-        ],
-        "weight_decay": 5e-4,
+        "steplr": {},
+        "weight_decay": 1e-4,
         "momentum": 0.9,
         "nesterov": false
     },
@@ -36,5 +32,14 @@
     },
     "loss": {
         "criterion": "softmax"
+    },
+    "gbn": {
+        "sparse_lambda": 1e-3,
+        "flops_eta": 0,
+        "lr_min": 1e-3,
+        "lr_max": 1e-2,
+        "tock_epoch": 10,
+        "T": 10,
+        "p": 0.002
     }
 }
