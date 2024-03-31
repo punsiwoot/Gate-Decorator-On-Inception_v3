@@ -1,0 +1,39 @@
+{
+    "base": {
+        "task_name": "resnet50_imagenette_finetune",
+        "cuda": true,
+        "seed": 0,
+        "model_saving_interval": 90,
+        "checkpoint_path": "",
+        "epoch": 0,
+        "multi_gpus": true,
+        "fp16": false
+    },
+    "model": {
+        "name": "resnet50",
+        "num_class": 10,
+        "pretrained": true
+    },
+    "train": {
+        "trainer": "normal",
+        "max_epoch": 90,
+        "optim": "sgd",
+        "steplr": {},
+        "weight_decay": 1e-4,
+        "momentum": 0.9,
+        "nesterov": true
+    },
+    "data": {
+        "type": "imagenette",
+        "shuffle": true,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "num_workers": 4
+    },
+    "loss": {
+        "criterion": "softmax"
+    },
+    "gbn": {
+        "finetune_epoch": 60
+    }
+}
